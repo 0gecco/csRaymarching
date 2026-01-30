@@ -4,6 +4,9 @@ A real-time CPU raymarcher that renders signed-distance-field scenes directly in
 
 It is intentionally "overkill ASCII art": multi-core raymarching, shading, and a smooth free-fly camera, all presented as chunky terminal pixels.
 
+![Screen1](/screenshots/screenshot%20(3).png)
+![Screen1](/screenshots/screenshot%20(4).png)
+
 ## Features
 
 - CPU raymarching using signed distance fields (SDF)
@@ -38,9 +41,12 @@ It is intentionally "overkill ASCII art": multi-core raymarching, shading, and a
 
 Recommended terminal:
 - Windows Terminal on Windows 11 (very stable under heavy redraw)
+
 This project is intentionally CPU-heavy. Performance depends strongly on core count,
 cache size, and sustained clock speed. Larger window will be harder to run smoothly. 
 @ 1920x1080 terminal size, I get about 30-40 FPS with a R9 9900X3D.
+
+![Screen1](/screenshots/screenshot%20(2).png)
 
 ## Project Layout (High Level)
 
