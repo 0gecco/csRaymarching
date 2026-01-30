@@ -86,6 +86,6 @@ Most tuning parameters live in Settings.cs (initialized in Program.cs), includin
 
 ## License
 
-Choose any license you prefer (MIT, Apache-2.0, etc).
+MIT License — see LICENSE file.
 
 (c) 2026 NiTROZ
